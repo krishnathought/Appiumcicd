@@ -1,0 +1,1 @@
+26:Android:Pixel4:com.qa.BaseTest:/Users/krishnamurthy/Desktop/AppiumFramework/target/classes/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk

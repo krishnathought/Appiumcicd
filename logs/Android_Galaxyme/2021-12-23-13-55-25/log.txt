@@ -1,0 +1,34 @@
+27:Android:Galaxyme:com.qa.BaseTest:/Users/krishnamurthy/Desktop/AppiumFramework/target/classes/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+27:Android:Galaxyme:com.qa.tests.LoginTests:
+***** starting test*****   	invalidPassword****
+
+27:Android:Galaxyme:com.qa.pages.LoginPage:Login with standard_user
+27:Android:Galaxyme:com.qa.pages.LoginPage:Password is invalidpassword
+27:Android:Galaxyme:com.qa.pages.LoginPage:Press login Button
+27:Android:Galaxyme:com.qa.pages.LoginPage:err Text method Username and password do not match any user in this service.
+27:Android:Galaxyme:com.qa.tests.LoginTests:Actual errortext for invalid password-->Username and password do not match any user in this service.
+27:Android:Galaxyme:com.qa.tests.LoginTests:Expected errortext for invalid password-->Username and password do not match any user in this service.
+27:Android:Galaxyme:com.qa.tests.LoginTests:
+***** starting test*****   	successfulLogin****
+
+27:Android:Galaxyme:com.qa.pages.LoginPage:Login with standard_user
+27:Android:Galaxyme:com.qa.pages.LoginPage:Password is secret_sauce
+27:Android:Galaxyme:com.qa.pages.LoginPage:Press login Button
+27:Android:Galaxyme:com.qa.pages.ProductsPage:Producuts Page  Title PRODUCTS
+27:Android:Galaxyme:com.qa.tests.LoginTests:Actual products title---PRODUCTS
+Expected Products title---PRODUCTS
+27:Android:Galaxyme:com.qa.pages.LoginPage:Login with standard_user
+27:Android:Galaxyme:com.qa.pages.LoginPage:Password is secret_sauce
+27:Android:Galaxyme:com.qa.pages.LoginPage:Press login Button
+27:Android:Galaxyme:com.qa.pages.ProductsPage:Title is on products page  Sauce Labs Backpack
+27:Android:Galaxyme:com.qa.pages.ProductsPage:Prics is on product page $29.99
+27:Android:Galaxyme:com.qa.MenuPage:Press Settings Button
+27:Android:Galaxyme:com.qa.pages.LoginPage:Login with standard_user
+27:Android:Galaxyme:com.qa.pages.LoginPage:Password is secret_sauce
+27:Android:Galaxyme:com.qa.pages.LoginPage:Press login Button
+27:Android:Galaxyme:com.qa.pages.ProductsPage:Press SLB Title link -
+27:Android:Galaxyme:com.qa.pages.ProductsDetailsPage:Title isSauce Labs Backpack
+27:Android:Galaxyme:com.qa.pages.ProductsDetailsPage:Text value SLBcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+27:Android:Galaxyme:com.qa.pages.ProductsDetailsPage:price value SLB$29.99
+27:Android:Galaxyme:com.qa.pages.ProductsDetailsPage:Navigate back to Products page
+27:Android:Galaxyme:com.qa.MenuPage:Press Settings Button

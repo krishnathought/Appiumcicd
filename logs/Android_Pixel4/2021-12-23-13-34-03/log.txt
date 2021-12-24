@@ -1,0 +1,34 @@
+26:Android:Pixel4:com.qa.BaseTest:/Users/krishnamurthy/Desktop/AppiumFramework/target/classes/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+26:Android:Pixel4:com.qa.tests.LoginTests:
+***** starting test*****   	invalidPassword****
+
+26:Android:Pixel4:com.qa.pages.LoginPage:Login with standard_user
+26:Android:Pixel4:com.qa.pages.LoginPage:Password is invalidpassword
+26:Android:Pixel4:com.qa.pages.LoginPage:Press login Button
+26:Android:Pixel4:com.qa.pages.LoginPage:err Text method Username and password do not match any user in this service.
+26:Android:Pixel4:com.qa.tests.LoginTests:Actual errortext for invalid password-->Username and password do not match any user in this service.
+26:Android:Pixel4:com.qa.tests.LoginTests:Expected errortext for invalid password-->Username and password do not match any user in this service.
+26:Android:Pixel4:com.qa.tests.LoginTests:
+***** starting test*****   	successfulLogin****
+
+26:Android:Pixel4:com.qa.pages.LoginPage:Login with standard_user
+26:Android:Pixel4:com.qa.pages.LoginPage:Password is secret_sauce
+26:Android:Pixel4:com.qa.pages.LoginPage:Press login Button
+26:Android:Pixel4:com.qa.pages.ProductsPage:Producuts Page  Title PRODUCTS
+26:Android:Pixel4:com.qa.tests.LoginTests:Actual products title---PRODUCTS
+Expected Products title---PRODUCTS
+26:Android:Pixel4:com.qa.pages.LoginPage:Login with standard_user
+26:Android:Pixel4:com.qa.pages.LoginPage:Password is secret_sauce
+26:Android:Pixel4:com.qa.pages.LoginPage:Press login Button
+26:Android:Pixel4:com.qa.pages.ProductsPage:Title is on products page  Sauce Labs Backpack
+26:Android:Pixel4:com.qa.pages.ProductsPage:Prics is on product page $29.99
+26:Android:Pixel4:com.qa.MenuPage:Press Settings Button
+26:Android:Pixel4:com.qa.pages.LoginPage:Login with standard_user
+26:Android:Pixel4:com.qa.pages.LoginPage:Password is secret_sauce
+26:Android:Pixel4:com.qa.pages.LoginPage:Press login Button
+26:Android:Pixel4:com.qa.pages.ProductsPage:Press SLB Title link -
+26:Android:Pixel4:com.qa.pages.ProductsDetailsPage:Title isSauce Labs Backpack
+26:Android:Pixel4:com.qa.pages.ProductsDetailsPage:Text value SLBcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+26:Android:Pixel4:com.qa.pages.ProductsDetailsPage:price value SLB$29.99
+26:Android:Pixel4:com.qa.pages.ProductsDetailsPage:Navigate back to Products page
+26:Android:Pixel4:com.qa.MenuPage:Press Settings Button

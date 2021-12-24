@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+  <listeners>
+    <listener class-name="com.qa.listeners.Testlistener"></listener>
+  </listeners>
+  <!--<test thread-count="5" name="Test">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Galaxyme"/>
+    <parameter name="emulator" value="false"/>
+   <parameter name="udid" value="192.168.29.234:5555"></parameter>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+
+        <methods>
+            &lt;!&ndash; <include name="invalidUserName"></include>&ndash;&gt;
+          <include name="invalidPassword"></include>
+          <include name="successfulLogin"></include>
+
+        </methods>
+
+      </class>
+      <class name="com.qa.tests.ProductTests">
+
+
+      </class>
+    </classes>
+
+  </test>-->
+   <!-- <test thread-count="5" name="TestViji">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="Viji"/>
+        <parameter name="emulator" value="false"/>
+        <parameter name="udid" value="RZ8N718SC4Y"></parameter>
+        <classes>
+            <class name="com.qa.tests.LoginTests">
+
+                <methods>
+                    &lt;!&ndash; <include name="invalidUserName"></include>&ndash;&gt;
+                    <include name="invalidPassword"></include>
+                    <include name="successfulLogin"></include>
+
+                </methods>
+
+            </class>
+            <class name="com.qa.tests.ProductTests">
+
+
+            </class>
+        </classes>
+
+    </test>-->
+
+  <test thread-count="5" name="Test simulator">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Pixel4"/>
+    <parameter name="emulator" value="true"/>
+    <parameter name="udid" value="192.168.29.234:5555"></parameter>
+
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+         <methods>
+             <!--     <include name="invalidUserName"></include>-->
+             <include name="invalidPassword"></include>
+           <include name="successfulLogin"></include>
+
+         </methods>
+
+      </class>
+      <class name="com.qa.tests.ProductTests">
+
+
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

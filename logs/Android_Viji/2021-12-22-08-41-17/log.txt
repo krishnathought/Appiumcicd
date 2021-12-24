@@ -1,0 +1,34 @@
+19:Android:Viji:com.qa.BaseTest:/Users/krishnamurthy/Desktop/AppiumFramework/target/classes/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+19:Android:Viji:com.qa.tests.LoginTests:
+***** starting test*****   	invalidPassword****
+
+19:Android:Viji:com.qa.pages.LoginPage:Login with standard_user
+19:Android:Viji:com.qa.pages.LoginPage:Password is invalidpassword
+19:Android:Viji:com.qa.pages.LoginPage:Press login Button
+19:Android:Viji:com.qa.pages.LoginPage:err Text method Username and password do not match any user in this service.
+19:Android:Viji:com.qa.tests.LoginTests:Actual errortext for invalid password-->Username and password do not match any user in this service.
+19:Android:Viji:com.qa.tests.LoginTests:Expected errortext for invalid password-->Username and password do not match any user in this service.
+19:Android:Viji:com.qa.tests.LoginTests:
+***** starting test*****   	successfulLogin****
+
+19:Android:Viji:com.qa.pages.LoginPage:Login with standard_user
+19:Android:Viji:com.qa.pages.LoginPage:Password is secret_sauce
+19:Android:Viji:com.qa.pages.LoginPage:Press login Button
+19:Android:Viji:com.qa.pages.ProductsPage:Producuts Page  Title PRODUCTS
+19:Android:Viji:com.qa.tests.LoginTests:Actual products title---PRODUCTS
+Expected Products title---PRODUCTS
+19:Android:Viji:com.qa.pages.LoginPage:Login with standard_user
+19:Android:Viji:com.qa.pages.LoginPage:Password is secret_sauce
+19:Android:Viji:com.qa.pages.LoginPage:Press login Button
+19:Android:Viji:com.qa.pages.ProductsPage:Title is on products page  Sauce Labs Backpack
+19:Android:Viji:com.qa.pages.ProductsPage:Prics is on product page $29.99
+19:Android:Viji:com.qa.MenuPage:Press Settings Button
+19:Android:Viji:com.qa.pages.LoginPage:Login with standard_user
+19:Android:Viji:com.qa.pages.LoginPage:Password is secret_sauce
+19:Android:Viji:com.qa.pages.LoginPage:Press login Button
+19:Android:Viji:com.qa.pages.ProductsPage:Press SLB Title link -
+19:Android:Viji:com.qa.pages.ProductsDetailsPage:Title isSauce Labs Backpack
+19:Android:Viji:com.qa.pages.ProductsDetailsPage:Text value SLBcarry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+19:Android:Viji:com.qa.pages.ProductsDetailsPage:price value SLB$29.99
+19:Android:Viji:com.qa.pages.ProductsDetailsPage:Navigate back to Products page
+19:Android:Viji:com.qa.MenuPage:Press Settings Button
