@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.qa.listeners.Testlistener"></listener>
   </listeners>
-  <!--<test thread-count="5" name="Test">
+  <test thread-count="5" name="Test">
     <parameter name="platformName" value="Android"/>
     <parameter name="deviceName" value="Galaxyme"/>
     <parameter name="emulator" value="false"/>
@@ -13,7 +13,7 @@
       <class name="com.qa.tests.LoginTests">
 
         <methods>
-            &lt;!&ndash; <include name="invalidUserName"></include>&ndash;&gt;
+            <!-- <include name="invalidUserName"></include>-->
           <include name="invalidPassword"></include>
           <include name="successfulLogin"></include>
 
@@ -26,7 +26,7 @@
       </class>
     </classes>
 
-  </test>-->
+  </test>
    <!-- <test thread-count="5" name="TestViji">
         <parameter name="platformName" value="Android"/>
         <parameter name="deviceName" value="Viji"/>
